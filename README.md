@@ -44,6 +44,7 @@ En el manual de usuario se puede ver mas acerca de la jugabilidad del mismo.
 ### Especificaciones:
 - El trabajo se realizo en el lenguaje C++.
 - La rama main se encuentra en el archivo tp2
+- Compilacion: g++ -std=c++98 -ansi -pedantic -Wall -g *.cpp -o main
 - Para dar imagen al tablero se uso la libreria EasyBMP, la cual nos da una imagen por cada "nivel/piso" del tablero, para cada jugador, en la carpeta donde
 se encuentra el juego. Se puede apreciar la vista en el manual de usuario.
 - EasyBMP: http://easybmp.sourceforge.net/download.html
